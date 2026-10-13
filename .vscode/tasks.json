@@ -1,0 +1,65 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "SPARC: Run website",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/.vscode/run-dev.mjs"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "sparc",
+        "pattern": {
+          "regexp": "^(ERROR): (.*)$",
+          "message": 2
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "SPARC: starting",
+          "endsPattern": "SPARC ready:"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "SPARC: Build website",
+      "type": "process",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/node_modules/vite/bin/vite.js",
+        "build"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "SPARC: Install dependencies",
+      "type": "shell",
+      "command": "npm",
+      "windows": {
+        "command": "npm.cmd"
+      },
+      "args": [
+        "ci"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

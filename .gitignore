@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.sites-runtime/
+.env
+.env.*
+!.env.example
+*.log
+*.tar.gz
+.openai/
+.vscode/chrome-profile/
+.DS_Store
+Thumbs.db

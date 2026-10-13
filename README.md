@@ -1,1 +1,74 @@
-# Sparc
+# SPARC 2026 · Indo–US International Workshop & Conference
+
+Responsive React website for the IIT Ropar event on **Medical Devices in Wound Healing**, scheduled for **20–21 December 2026**.
+
+## Run locally
+
+Install Node.js 22.12+ (or Node.js 20.19+), then run:
+
+```sh
+git clone https://github.com/Shatakshi-Shukla31/Sparc.git
+cd Sparc
+npm ci
+npm run dev
+```
+
+Open **http://127.0.0.1:5173** while the development server is running.
+
+## Run in VS Code
+
+Open the repository folder in VS Code. After installing dependencies with `npm ci`, press **F5** to start the website and open Chrome. The same task is available under **Terminal → Run Task → SPARC: Run website**.
+
+Press **Ctrl+Shift+B** to build, or run:
+
+```sh
+npm run build
+npm run preview
+```
+
+The production files are generated in `dist/` and can be deployed to a static hosting service. Build output and installed dependencies are excluded from Git.
+
+## Website features
+
+- Responsive layouts with an enlarged SPARC logo, readable typography, and circular speaker portraits.
+- A directory of 26 speakers, with 21 portraits and five name-only entries where a matching photograph was unavailable.
+- Speaker category filters, name/institution search, and profile dialogs.
+- Programme and theme tabs, FAQ accordion, and mobile navigation.
+- Calendar download, organiser email enquiries, directions, and downloadable flyer.
+
+Registration currently opens an email enquiry to the organisers. Set `event.registrationUrl` in `src/event.js` when an official registration form is available. The site does not collect or store participant submissions.
+
+## Edit the website
+
+| File | Purpose |
+| --- | --- |
+| `src/event.js` | Event details, speakers, activities, themes, contacts, and FAQs |
+| `src/main.jsx` | React components and interactions |
+| `src/styles.css` | Typography, branding, layouts, and responsive styling |
+| `public/images/` | Logos, speaker portraits, and device imagery |
+| `public/downloads/` | Original downloadable flyer |
+| `index.html` | Page title and metadata |
+
+## Content and image references
+
+Event content and supplied artwork come from these presentations:
+
+- `SPARC_Wound_Healing_Flyer-final (5).pptx`
+- `INTERNATIONAL WORKSHOP (A2 (Landscape)) (1).pptx`
+- `present speaker.pptx`
+
+The original flyer is included in `public/downloads/`. Device and wound-care imagery appears throughout the page. Detailed session timings, fees, and accommodation arrangements await organiser confirmation.
+
+Additional portrait sources:
+
+- [Pratik Baldota — Improvians](https://improvians.com/about-us.html)
+- [Dr. Bharat Kotru](https://drbharatkotru.com/about-us/)
+- [Dr. Sanjeev Soni — CSIR-CSIO](https://icsio.csio.res.in/csio.ems/emp_profile.aspx?id=931)
+
+The retained campus asset originated from [IIT Ropar](https://iitrpr.ac.in/nsm/Useful_Info.htm). Navigation was informed by the [Biomanthan event site](https://sites.google.com/iitrpr.ac.in/biomanthan/home).
+
+Typography uses Google Fonts; icons use Lucide. Event logos and photographs remain the property of their respective owners.
+
+## Build compatibility
+
+Vite uses the official Rollup WebAssembly package through an npm alias and override for compatibility with Windows systems that restrict native Node modules.
