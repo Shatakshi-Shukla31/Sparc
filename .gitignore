@@ -10,3 +10,4 @@ dist/
 .vscode/chrome-profile/
 .DS_Store
 Thumbs.db
+.vercel/

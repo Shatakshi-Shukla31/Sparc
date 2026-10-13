@@ -28,6 +28,16 @@ npm run preview
 
 The production files are generated in `dist/` and can be deployed to a static hosting service. Build output and installed dependencies are excluded from Git.
 
+## Host on Vercel
+
+1. Open [Vercel New Project](https://vercel.com/new) and sign in with GitHub.
+2. Import `Shatakshi-Shukla31/Sparc` and use the `main` branch for production.
+3. Keep **Root Directory** as `./` (the repository root). Do not enter `mdwh-2026`, because the application files are already at the repository root.
+4. Use **Vite** as the framework preset, **npm ci** as the install command, **npm run build** as the build command, and **dist** as the output directory.
+5. Select **Deploy**. Open the production URL that Vercel returns after the deployment is ready.
+
+The tracked `vercel.json` already declares the framework, install command, build command, and output directory. No environment variables are required for the current website. Future pushes to the connected production branch trigger new deployments through Vercel's GitHub integration.
+
 ## Website features
 
 - Responsive layouts with an enlarged SPARC logo, readable typography, and circular speaker portraits.
