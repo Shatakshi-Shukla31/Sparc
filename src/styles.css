@@ -65,3 +65,100 @@ html{scroll-padding-top:158px}
 @media(max-width:700px){html{scroll-padding-top:115px}.header-inner{height:106px;gap:15px}.brand{gap:12px;padding:9px 11px}.brand-sparc-logo{width:clamp(140px,37vw,190px);height:auto;aspect-ratio:302/117}.brand-edition{font-size:29px;padding-left:13px}.brand-edition small{font-size:12px;letter-spacing:1px;margin-top:7px}.main-nav{top:106px}.menu-button{width:40px;height:40px}.hero-logo-panel{gap:13px;padding:13px 15px}.hero-logo-panel>img{width:150px}.hero-logo-panel>span{font-size:12px}.speaker-grid{gap:19px}.speaker-card{padding:12px}.speaker-image{height:245px;border-radius:9px}.speaker-portrait{width:min(210px,calc(100% - 24px));border-width:6px}.speaker-content{padding:22px 5px 15px}.speaker-content h3{font-size:20px;line-height:1.4}.speaker-content>p{font-size:15px}.speaker-role{font-size:14px}.speaker-tag{font-size:12px;padding:5px 9px;letter-spacing:.3px}.speaker-open{width:38px;height:38px;right:10px;bottom:10px}.speaker-open>svg{width:20px}.footer .brand-sparc-logo{width:155px;height:60px}.footer .brand-edition{font-size:26px}.footer .brand{gap:12px;padding:9px 11px}}
 @media(max-width:560px){.speaker-grid{grid-template-columns:1fr;gap:24px}.speaker-card{padding:16px}.speaker-image{height:300px}.speaker-portrait{width:min(250px,calc(100% - 38px));border-width:8px}.speaker-content{padding:24px 12px 21px}.speaker-content h3{font-size:22px}.speaker-content>p{font-size:16px}.speaker-tag{font-size:12px;padding:6px 12px}.speaker-open{width:43px;height:43px;right:13px;bottom:13px}.speaker-open>svg{width:23px}}
 @media(max-width:380px){.header-inner{height:98px;gap:10px}.brand{padding:8px;gap:9px}.brand-sparc-logo{width:130px}.brand-edition{font-size:27px;padding-left:10px}.brand-edition small{font-size:12px;letter-spacing:.6px}.main-nav{top:98px}.menu-button{width:36px;height:36px}.hero-logo-panel{padding:12px;gap:11px}.hero-logo-panel>img{width:125px}.speaker-image{height:270px}.speaker-portrait{width:calc(100% - 30px)}.speaker-content{padding:21px 5px 17px}.speaker-content h3{font-size:21px}.speaker-dialog-photo{width:170px;height:170px}.footer .brand-sparc-logo{width:135px;height:53px}.footer .brand-edition{font-size:25px}.footer .brand{padding:8px;gap:10px}}
+
+/* October 2026: a single hero logo, organisers and workshop leadership. */
+html { scroll-padding-top: 105px; }
+.header-inner { height: 84px; gap: 30px; }
+.header-wordmark { display: flex; flex-direction: column; flex-shrink: 0; gap: 5px; font-family: var(--heading); font-size: 21px; font-weight: 750; letter-spacing: .6px; line-height: 1.2; }
+.header-wordmark small { font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 1.1px; color: var(--green); }
+.header-enquire { font-size: 15px; }
+.main-nav { top: 84px; }
+.hero-logo-panel { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: center; gap: 22px; width: 100%; padding: 20px 22px; margin-bottom: 30px; }
+.hero-logo-panel > img { width: 100%; height: auto; max-width: 270px; min-width: 0; justify-self: center; }
+.hero-logo-panel > span { font-size: 17px; line-height: 1.7; letter-spacing: .3px; font-weight: 550; }
+.hero h1 { font-size: clamp(60px, 5.8vw, 84px); }
+.device-primary > img { display: block; }
+.device-secondary-grid figure { overflow: hidden; }
+.device-secondary-grid img { display: block; }
+.organisers-section { margin-top: 48px; padding-top: 38px; border-top: 1px solid var(--line); }
+.organisers-heading { margin-bottom: 24px; }
+.organisers-heading .eyebrow { margin-bottom: 10px; font-size: 13px; }
+.organisers-heading h3 { font-size: 29px; line-height: 1.35; letter-spacing: -.6px; }
+.organiser-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.organiser-card { padding: 24px; border: 1px solid #dce5d9; border-radius: 12px; background: #f0f4ec; min-width: 0; }
+.organiser-card > span { display: block; color: #53755d; font-size: 13px; font-weight: 600; margin-bottom: 9px; }
+.organiser-card h4 { font-size: 21px; line-height: 1.5; font-weight: 600; letter-spacing: -.4px; }
+.workshop-leadership { margin-top: 46px; }
+.chief-patron { display: flex; gap: 40px; align-items: center; padding: 36px 44px; border: 1px solid #d9e3d4; border-radius: 16px; background: linear-gradient(120deg, #eaf0e3, #fffefa 85%); }
+.chief-patron > img { width: 204px; height: 204px; flex-shrink: 0; object-fit: cover; object-position: center 26%; border: 8px solid #fffefa; outline: 1px solid #cedbc8; border-radius: 50%; box-shadow: 0 9px 22px #19372a16; }
+.chief-patron .eyebrow { font-size: 14px; margin-bottom: 14px; }
+.chief-patron h3 { font-size: 34px; line-height: 1.3; letter-spacing: -.7px; }
+.chief-patron p { font-size: 21px; color: var(--green); margin-top: 12px; }
+.convenors { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 34px; padding-top: 0; border-top: 0; }
+.convenors > .convenor-intro { grid-column: 1 / -1; }
+.convenor-intro h3 { font-size: 29px; line-height: 1.35; letter-spacing: -.6px; }
+.convenors > .convenor-intro > p { font-size: 17px; margin-top: 9px; }
+.convenor { gap: 22px; padding: 27px; border: 1px solid #dce5d9; border-radius: 14px; background: #fffefa; transition: border-color .2s, box-shadow .2s; }
+.convenor:hover { border-color: #85a18a; box-shadow: 0 8px 20px #19372a0a; }
+.convenor > img { width: 110px; height: 110px; flex-shrink: 0; border-width: 5px; filter: none; }
+.convenor strong { font-size: 24px; line-height: 1.4; }
+.convenor div > span { font-size: 17px; line-height: 1.5; }
+.convenor > svg { flex-shrink: 0; }
+.contact-copy > .registration-detail { font-size: 15px; color: #c0d2c7; max-width: 450px; margin-top: -8px; }
+.speaker-portrait { max-width: 250px; }
+@media (max-width: 1200px) {
+  .convenor { gap: 18px; padding: 22px; }
+  .convenor > img { width: 94px; height: 94px; }
+  .convenor strong { font-size: 22px; }
+}
+@media (max-width: 1050px) {
+  .header-inner { height: 82px; }
+  .main-nav { top: 82px; }
+  .hero-logo-panel { max-width: 640px; }
+  .hero h1 { font-size: 74px; }
+  .organiser-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .convenor { gap: 16px; padding: 20px; }
+  .convenor > img { width: 88px; height: 88px; }
+  .convenor strong { font-size: 21px; }
+  .convenor div > span { font-size: 16px; }
+}
+@media (max-width: 700px) {
+  html { scroll-padding-top: 94px; }
+  .header-inner { height: 76px; gap: 15px; }
+  .main-nav { top: 76px; }
+  .header-wordmark { font-size: 20px; }
+  .header-wordmark small { font-size: 11px; }
+  .hero-logo-panel { gap: 16px; padding: 18px 16px; }
+  .hero-logo-panel > img { width: 100%; max-width: 240px; }
+  .hero-logo-panel > span { font-size: clamp(12px, 3vw, 16px); line-height: 1.65; letter-spacing: 0; }
+  .hero h1 { font-size: 60px; }
+  .organisers-section { margin-top: 38px; padding-top: 30px; }
+  .organisers-heading h3, .convenor-intro h3 { font-size: 25px; }
+  .organiser-list { gap: 12px; }
+  .organiser-card { padding: 20px; }
+  .organiser-card h4 { font-size: 19px; }
+  .chief-patron { gap: 24px; flex-direction: column; text-align: center; padding: 30px 24px; }
+  .chief-patron > img { width: 190px; height: 190px; }
+  .chief-patron .eyebrow { justify-content: center; }
+  .chief-patron h3 { font-size: 29px; }
+  .chief-patron p { font-size: 19px; }
+  .convenors { grid-template-columns: 1fr; gap: 18px; }
+  .convenor { gap: 18px; padding: 23px; }
+  .convenor > img { width: 96px; height: 96px; }
+  .convenor strong { font-size: 22px; }
+  .convenor div > span { font-size: 16px; }
+  .convenor > svg { display: none; }
+  .convenors > .convenor-intro > p { font-size: 16px; }
+}
+@media (max-width: 560px) {
+  .organiser-list { grid-template-columns: 1fr; }
+}
+@media (max-width: 380px) {
+  .hero-logo-panel { padding: 16px 13px; gap: 12px; }
+  .hero-logo-panel > img { width: 100%; }
+  .hero h1 { font-size: 52px; }
+  .convenor { gap: 14px; padding: 18px; }
+  .convenor > img { width: 82px; height: 82px; }
+  .convenor strong { font-size: 20px; }
+  .convenor div > span { font-size: 15px; }
+}

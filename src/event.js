@@ -11,8 +11,8 @@ export const event = {
   address: 'Rupnagar, Punjab 140001, India',
   email: 'sparciitropar@gmail.com',
   phone: '+91-1881-232506',
-  // Add the official registration URL here when supplied by the organisers.
-  registrationUrl: '',
+  // Registration responses are collected in the Google Form supplied by the organisers.
+  registrationUrl: 'https://forms.gle/ymvCvh3U4PeGdzfbA',
   flyerUrl: '/downloads/MDWH-2026-flyer.pptx',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Indian+Institute+of+Technology+Ropar+Rupnagar',
 };
@@ -306,6 +306,15 @@ export const speakers = [
   }
 ];
 
+export const organisers = [
+  { id: 'suryasnata-tripathy', name: 'Dr. Suryasnata Tripathy' },
+  { id: 'srivatsawa-naidu', name: 'Dr. Srivatsawa Naidu' },
+  { id: 'bodhisatwa-das', name: 'Dr. Bodhisatwa Das' },
+  { id: 'rajesh-kumar', name: 'Dr. Rajesh Kumar' },
+  { id: 'naveen-kumar', name: 'Dr. Naveen Kumar' },
+  { id: 'yashveer-singh', name: 'Dr. Yashveer Singh' },
+];
+
 export const activities = [
   { icon: 'lectures', title: 'Invited lectures', text: 'Hear from researchers and clinicians working at the intersection of medical devices and wound care.', label: 'Expert perspectives' },
   { icon: 'devices', title: 'Technical demonstrations', text: 'Explore technologies and medical devices with demonstrations that connect research to practice.', label: 'Technology in focus' },
@@ -322,7 +331,7 @@ export const themes = [
 
 export const faqs = [
   ['Who is the workshop for?', 'Researchers, clinicians, biomedical engineers, students, and industry professionals with an interest in medical devices, wound healing, and regenerative medicine.'],
-  ['How do I register?', 'Send a registration enquiry to sparciitropar@gmail.com using the enquiry button. The organisers will confirm registration arrangements, availability, and any applicable fees.'],
+  ['How do I register?', 'Use the Register button to complete the Google Form and send your details to the organising team. For questions about registration, availability, or fees, email sparciitropar@gmail.com.'],
   ['Is the detailed programme available?', 'The flyer announces invited lectures, technical demonstrations, hands-on sessions, and an academic–industry conclave. Session timings and the detailed timetable are yet to be announced.'],
   ['Can I request accommodation or travel guidance?', 'Please contact the organising team for accommodation availability and travel guidance before making arrangements. No accommodation booking is included with an enquiry.'],
 ];

@@ -44,9 +44,10 @@ The tracked `vercel.json` already declares the framework, install command, build
 - A directory of 26 speakers, with 21 portraits and five name-only entries where a matching photograph was unavailable.
 - Speaker category filters, name/institution search, and profile dialogs.
 - Programme and theme tabs, FAQ accordion, and mobile navigation.
-- Calendar download, organiser email enquiries, directions, and downloadable flyer.
+- Calendar download, Google Form registration, organiser contact links, directions, and downloadable flyer.
+- Six organisers, a chief patron card for Professor Rajeev Ahuja, and enlarged workshop convenor cards.
 
-Registration currently opens an email enquiry to the organisers. Set `event.registrationUrl` in `src/event.js` when an official registration form is available. The site does not collect or store participant submissions.
+Registration buttons open the [Google Form supplied by the organisers](https://forms.gle/ymvCvh3U4PeGdzfbA). Responses are collected through Google Forms; this website does not store them. Google currently asks visitors to sign in before opening the form. Update `event.registrationUrl` in `src/event.js` if the form changes.
 
 ## Edit the website
 
@@ -61,7 +62,7 @@ Registration currently opens an email enquiry to the organisers. Set `event.regi
 
 ## Content and image references
 
-Event content and supplied artwork come from these presentations:
+The chief patron photograph was supplied by the user. Event content and other supplied artwork come from these presentations:
 
 - `SPARC_Wound_Healing_Flyer-final (5).pptx`
 - `INTERNATIONAL WORKSHOP (A2 (Landscape)) (1).pptx`
