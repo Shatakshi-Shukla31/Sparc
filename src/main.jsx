@@ -82,7 +82,7 @@ function App() {
           <p className="hero-description">Bridging biomedical engineering and clinical translation for the next generation of wound healing technologies.</p>
           <div className="hero-meta"><span><CalendarDays size={20} />20–21 December 2026</span><span><MapPin size={20} />IIT Ropar, India</span></div>
           <div className="hero-actions"><a className="button button-mint" href={event.registrationUrl} target="_blank" rel="noopener noreferrer">Register for workshop <ArrowUpRight size={20} /></a><a className="hero-secondary" href="#programme">Explore the workshop <ArrowDown size={18} /></a></div>
-          <div className="hero-organisers"><span>JOINTLY ORGANISED BY</span><p>IIT Ropar <span>×</span> PGIMER Chandigarh</p></div>
+          <div className="hero-organisers"><span>JOINTLY ORGANISED BY</span><p>Indian Institute of Technology Ropar</p><p>Postgraduate Institute of Medical Education and Research, Chandigarh</p></div>
         </div><div className="device-showcase"><div className="device-showcase-heading"><span>ENGINEERING FOR BETTER HEALING</span><CircuitBoard size={22} /></div>
           <figure className="device-primary"><img src="/images/wound-monitoring-device.jpeg" alt="A wearable medical device applied to the body, from the supplied workshop reference" fetchPriority="high" /></figure>
           <div className="device-secondary-grid"><figure><img src="/images/therapeutic-device.jpeg" alt="Therapeutic device positioned on the skin" /></figure><figure><img src="/images/bioelectronic-device.jpeg" alt="Illustration of a bioelectronic device interacting with skin tissue" /></figure></div>

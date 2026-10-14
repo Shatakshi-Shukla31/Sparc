@@ -90,10 +90,10 @@ html { scroll-padding-top: 105px; }
 .organiser-card h4 { font-size: 21px; line-height: 1.5; font-weight: 600; letter-spacing: -.4px; }
 .workshop-leadership { margin-top: 46px; }
 .chief-patron { display: flex; gap: 40px; align-items: center; padding: 36px 44px; border: 1px solid #d9e3d4; border-radius: 16px; background: linear-gradient(120deg, #eaf0e3, #fffefa 85%); }
-.chief-patron > img { width: 204px; height: 204px; flex-shrink: 0; object-fit: cover; object-position: center 26%; border: 8px solid #fffefa; outline: 1px solid #cedbc8; border-radius: 50%; box-shadow: 0 9px 22px #19372a16; }
+.chief-patron > img { width: 248px; height: 248px; flex-shrink: 0; object-fit: cover; object-position: center 26%; border: 8px solid #fffefa; outline: 1px solid #cedbc8; border-radius: 50%; box-shadow: 0 9px 22px #19372a16; }
 .chief-patron .eyebrow { font-size: 14px; margin-bottom: 14px; }
-.chief-patron h3 { font-size: 34px; line-height: 1.3; letter-spacing: -.7px; }
-.chief-patron p { font-size: 21px; color: var(--green); margin-top: 12px; }
+.chief-patron h3 { font-size: 40px; line-height: 1.3; letter-spacing: -.7px; }
+.chief-patron p { font-size: 28px; font-weight: 600; color: var(--green); margin-top: 12px; }
 .convenors { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 34px; padding-top: 0; border-top: 0; }
 .convenors > .convenor-intro { grid-column: 1 / -1; }
 .convenor-intro h3 { font-size: 29px; line-height: 1.35; letter-spacing: -.6px; }
@@ -138,10 +138,10 @@ html { scroll-padding-top: 105px; }
   .organiser-card { padding: 20px; }
   .organiser-card h4 { font-size: 19px; }
   .chief-patron { gap: 24px; flex-direction: column; text-align: center; padding: 30px 24px; }
-  .chief-patron > img { width: 190px; height: 190px; }
+  .chief-patron > img { width: 220px; height: 220px; }
   .chief-patron .eyebrow { justify-content: center; }
-  .chief-patron h3 { font-size: 29px; }
-  .chief-patron p { font-size: 19px; }
+  .chief-patron h3 { font-size: 33px; }
+  .chief-patron p { font-size: 24px; }
   .convenors { grid-template-columns: 1fr; gap: 18px; }
   .convenor { gap: 18px; padding: 23px; }
   .convenor > img { width: 96px; height: 96px; }
@@ -162,3 +162,6 @@ html { scroll-padding-top: 105px; }
   .convenor strong { font-size: 20px; }
   .convenor div > span { font-size: 15px; }
 }
+
+.hero-organisers > p { font-size: 17px; line-height: 1.6; max-width: 560px; }
+.hero-organisers > p + p { margin-top: 8px; }
