@@ -41,7 +41,7 @@ html{scroll-padding-top:158px}
 .hero-logo-panel{gap:20px;padding:15px 20px}.hero-logo-panel>img{width:185px}.hero-logo-panel>span{font-size:13px}
 .footer .brand{padding:9px 12px;gap:13px}.footer .brand-sparc-logo{width:175px;height:68px}.footer .brand-edition{font-size:28px;padding-left:15px}.footer .brand-edition small{font-size:12px;letter-spacing:1px}
 /* Speaker cards use the original portraits in consistent circular frames. */
-.speaker-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;align-items:stretch}
+.speaker-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;align-items:stretch}
 .speaker-card{border:1px solid #d7e1d1;border-radius:16px;background:#fffefa;padding:16px;box-shadow:0 5px 18px #183a2710;overflow:hidden;transition:transform .25s,box-shadow .25s,border-color .25s}
 .speaker-card:hover{transform:translateY(-5px);box-shadow:0 15px 34px #183a271c;border-color:#9ab596}
 .speaker-card:focus-visible{outline:3px solid #5f9675;outline-offset:5px}
@@ -201,4 +201,55 @@ html { scroll-padding-top: 105px; }
   .organiser-photo-frame { height: 224px; }
   .organiser-portrait { width: 184px; height: 184px; }
   .organiser-card h4 { font-size: 21px; }
+}
+
+/* Four speaker columns on desktop and restrained interactive accents. */
+.speaker-card { position: relative; }
+.speaker-card::before { content: ''; position: absolute; z-index: 3; top: 0; left: 24px; right: 24px; height: 3px; border-radius: 0 0 4px 4px; background: linear-gradient(90deg, #98c397, #2e6952, #98c397); transform: scaleX(0); transition: transform .28s ease; }
+.speaker-portrait { transition: box-shadow .28s ease, outline-color .28s ease; }
+.speaker-content h3, .speaker-tag { transition: color .25s ease, background .25s ease; }
+.speaker-open { transition: transform .25s ease, background .25s ease, color .25s ease; }
+.button { transition: background .22s ease, transform .22s ease, box-shadow .22s ease; }
+.button > svg, .inline-link > svg, .hero-secondary > svg { transition: transform .22s ease; }
+.main-nav > a { transition: color .2s ease; }
+.speaker-filters > button { transition: background .22s ease, border-color .22s ease, transform .22s ease; }
+.organiser-card, .convenor, .programme-card { transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease, background .28s ease; }
+.organiser-portrait { transition: box-shadow .28s ease, outline-color .28s ease; }
+.programme-icon { transition: transform .28s ease, background .28s ease; }
+.technology-gallery figure { overflow: hidden; border-radius: 8px; }
+.technology-gallery img { transition: transform .4s ease; }
+@media(min-width: 1051px) {
+  .speaker-grid { gap: 24px; }
+  .speaker-card { padding: 14px; }
+  .speaker-image { height: 234px; }
+  .speaker-portrait { width: min(198px, calc(100% - 18px)); border-width: 6px; }
+  .speaker-content { padding: 22px 6px 16px; }
+  .speaker-content h3 { font-size: 21px; }
+  .speaker-content > p { font-size: 15px; }
+  .speaker-tag { font-size: 12px; letter-spacing: .25px; padding: 6px 9px; }
+  .speaker-role { font-size: 14px; }
+  .speaker-open { width: 38px; height: 38px; right: 10px; bottom: 10px; }
+  .speaker-open > svg { width: 20px; }
+}
+@media(hover: hover) and (pointer: fine) {
+  .speaker-card:hover, .speaker-card:focus-visible { transform: translateY(-7px); border-color: #83a583; box-shadow: 0 18px 36px #17372920, 0 3px 8px #1737290a; }
+  .speaker-card:hover::before, .speaker-card:focus-visible::before { transform: scaleX(1); }
+  .speaker-card:hover .speaker-portrait, .speaker-card:focus-visible .speaker-portrait { outline-color: #6e9d77; box-shadow: 0 12px 27px #203f2b30; }
+  .speaker-card:hover h3, .speaker-card:focus-visible h3 { color: #2e6952; }
+  .speaker-card:hover .speaker-tag, .speaker-card:focus-visible .speaker-tag { background: #dcebd5; color: #2d5738; }
+  .speaker-card:hover .speaker-open, .speaker-card:focus-visible .speaker-open { transform: translate(2px, -2px); background: #2e6952; color: #fff; }
+  .button:hover { transform: translateY(-3px); box-shadow: 0 8px 18px #102b2b21; }
+  .button:hover > svg, .inline-link:hover > svg, .hero-secondary:hover > svg { transform: translate(2px, -2px); }
+  .main-nav > a:hover { color: #2e6952; }
+  .speaker-filters > button:hover { transform: translateY(-2px); border-color: #93ad8b; }
+  .speaker-filters > button:not([aria-pressed=true]):hover { background: #e9f0e1; }
+  .organiser-card:hover { transform: translateY(-5px); border-color: #93b18c; box-shadow: 0 14px 30px #17372918; }
+  .organiser-card:hover .organiser-portrait { outline-color: #7aa17a; box-shadow: 0 11px 25px #17372926; }
+  .convenor:hover { transform: translateY(-4px); background: #f5f8ef; box-shadow: 0 12px 25px #17372912; }
+  .programme-card:hover { background: #f2f6ec; }
+  .programme-card:hover .programme-icon { transform: translateY(-3px) rotate(-4deg); background: #dcebd5; }
+  .technology-gallery figure:hover img { transform: scale(1.035); }
+}
+@media(prefers-reduced-motion: reduce) {
+  .speaker-card:hover, .speaker-card:focus-visible, .organiser-card:hover, .convenor:hover, .button:hover, .speaker-filters > button:hover, .programme-card:hover .programme-icon, .technology-gallery figure:hover img, .button:hover > svg, .inline-link:hover > svg, .hero-secondary:hover > svg, .speaker-card:hover .speaker-open, .speaker-card:focus-visible .speaker-open { transform: none; }
 }

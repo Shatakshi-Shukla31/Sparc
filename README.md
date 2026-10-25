@@ -95,3 +95,5 @@ The current flyer download is `public/downloads/SPARC-2026-flyer-23-10-2026.pdf`
 A student abstract invitation announces awards for the top 10 student oral research presentations. Workshop registration opens the existing Google Form. The abstract submission button opens an email to `sparciitropar@gmail.com` with a relevant subject; no email is sent automatically. No award amounts, deadlines or acceptance guarantees are stated.
 
 The speaker directory uses one grid without an additional-speakers heading. Flyer links are labelled Download flyer. Organiser portraits use larger circular frames, soft green image panels, and consistent name and institution panels.
+
+Desktop speaker cards use four columns, with two columns on tablets and one on phones. Fine-pointer hover effects add subtle card lift, portrait accents, button shadows, and arrow movement. Reduced-motion preferences disable movement.
