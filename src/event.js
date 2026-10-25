@@ -105,7 +105,6 @@ export const speakers = [
     "image": "/images/kartik-rangasamy.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
-    "additional": true,
     "photoPosition": "center 25%"
   },
   {
@@ -129,7 +128,6 @@ export const speakers = [
     "image": "/images/garima.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
-    "additional": true,
     "photoPosition": "center 25%"
   },
   {
@@ -142,7 +140,6 @@ export const speakers = [
     "image": "/images/raveena-singh.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
-    "additional": true,
     "photoPosition": "center 25%"
   },
   {
@@ -221,7 +218,6 @@ export const speakers = [
     "image": "/images/mahesh-kumar-sah.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
-    "additional": true,
     "photoPosition": "center 25%"
   },
   {
@@ -267,7 +263,6 @@ export const speakers = [
     "image": "/images/preeti-agarwal.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
-    "additional": true,
     "photoPosition": "center 25%"
   },
   {
