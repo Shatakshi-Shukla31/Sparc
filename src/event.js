@@ -320,7 +320,7 @@ export const organisers = [
   },
   {
     "id": "srivatsawa-naidu",
-    "name": "Dr. Srivastava Naidu",
+    "name": "Dr. Srivatsava Naidu",
     "institution": "IIT Ropar",
     "image": "/images/organiser-srivatsawa-naidu.jpg"
   },
