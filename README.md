@@ -43,7 +43,7 @@ The tracked `vercel.json` already declares the framework, install command, build
 ## Website features
 
 - Responsive layouts with an enlarged SPARC logo, readable typography, and circular speaker portraits.
-- A directory of 26 speakers, with 21 portraits and five name-only entries where a matching photograph was unavailable.
+- A directory of 26 speakers, all with portraits, including the five additional invited speakers.
 - Speaker category filters, name/institution search, and profile dialogs.
 - Programme and theme tabs, FAQ accordion, and mobile navigation.
 - Calendar download, Google Form registration, organiser contact links, directions, and downloadable flyer.
@@ -70,7 +70,7 @@ The chief patron photograph was supplied by the user. Event content and other su
 - `INTERNATIONAL WORKSHOP (A2 (Landscape)) (1).pptx`
 - `present speaker.pptx`
 
-The original flyer is included in `public/downloads/`. Device and wound-care imagery appears throughout the page. Detailed session timings, fees, and accommodation arrangements await organiser confirmation.
+The current flyer is `public/downloads/SPARC-2026-flyer-23-10-2026.pdf`; both website download links use this PDF. Device and wound-care imagery appears throughout the page. Detailed session timings, fees, and accommodation arrangements await organiser confirmation.
 
 Additional portrait sources:
 
@@ -85,3 +85,11 @@ Typography uses Google Fonts; icons use Lucide. Event logos and photographs rema
 ## Build compatibility
 
 Vite uses the official Rollup WebAssembly package through an npm alias and override for compatibility with Windows systems that restrict native Node modules.
+
+## October 2026 photos, flyer and student presentations
+
+All five additional speakers now have the supplied portraits. All six organisers have portrait cards, matched to the labelled organising team image. The order remains additional invited speakers, chief patron, workshop convenors, and organising team.
+
+The current flyer download is `public/downloads/SPARC-2026-flyer-23-10-2026.pdf`, copied unchanged from the supplied flyer. New portrait sources are `new speaker photo.pdf` and the supplied organising team image. Speaker and organiser names follow the supplied labels.
+
+A student abstract invitation announces awards for the top 10 student oral research presentations. Workshop registration opens the existing Google Form. The abstract submission button opens an email to `sparciitropar@gmail.com` with a relevant subject; no email is sent automatically. No award amounts, deadlines or acceptance guarantees are stated.

@@ -165,3 +165,37 @@ html { scroll-padding-top: 105px; }
 
 .hero-organisers > p { font-size: 17px; line-height: 1.6; max-width: 560px; }
 .hero-organisers > p + p { margin-top: 8px; }
+
+/* Supplied portraits and the student abstract invitation. */
+.speaker-additional-section { margin-top: 44px; padding-top: 32px; border-top: 1px solid var(--line); }
+.speaker-additional-section > h3 { margin-bottom: 24px; font-size: 27px; line-height: 1.4; letter-spacing: -.5px; }
+.organiser-card { text-align: center; padding: 28px 20px; background: #fffefa; }
+.organiser-portrait { display: block; width: 160px; height: 160px; max-width: 100%; object-fit: cover; object-position: center 24%; margin: 0 auto 22px; border: 6px solid #f0f4ec; outline: 1px solid #d7e2d1; border-radius: 50%; box-shadow: 0 6px 18px #17372912; }
+.organiser-card h4 { font-size: 21px; }
+.organiser-card > p { margin-top: 8px; font-size: 16px; color: var(--muted); }
+.student-callout { background: #e9efdf; border-bottom: 1px solid #d4dfcb; color: var(--ink); }
+.student-callout-inner { display: grid; grid-template-columns: 66px minmax(0, 1fr) 290px; align-items: center; gap: 28px; padding-block: 45px; }
+.student-award-icon { display: grid; place-items: center; width: 66px; height: 66px; border-radius: 50%; color: #547b50; background: #fffefa; border: 1px solid #cbd9c3; }
+.student-callout-copy .eyebrow { font-size: 12px; margin-bottom: 12px; }
+.student-callout-copy h2 { font-size: 32px; line-height: 1.3; letter-spacing: -.8px; }
+.student-callout-copy h2 em { font-family: var(--serif); color: var(--green); font-weight: 500; }
+.student-callout-copy p { margin-top: 15px; font-size: 17px; line-height: 1.8; max-width: 640px; }
+.student-callout-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 17px; }
+.student-callout-actions .button { font-size: 15px; padding: 16px 20px; }
+.student-callout-actions .inline-link { font-size: 15px; }
+.student-callout-actions > span { font-size: 13px; color: var(--muted); line-height: 1.8; overflow-wrap: anywhere; }
+.student-callout-actions > span > a { display: block; text-decoration: underline; text-underline-offset: 3px; }
+@media(max-width: 1050px) {
+  .student-callout-inner { grid-template-columns: 56px minmax(0, 1fr); gap: 20px 24px; }
+  .student-award-icon { width: 56px; height: 56px; }
+  .student-callout-actions { grid-column: 2; }
+}
+@media(max-width: 700px) {
+  .student-callout-inner { grid-template-columns: 1fr; gap: 20px; padding-block: 35px; }
+  .student-callout-actions { grid-column: 1; width: 100%; }
+  .student-callout-copy h2 { font-size: 29px; }
+  .student-callout-copy p { font-size: 16px; }
+  .student-callout-actions .button { max-width: 100%; font-size: 14px; gap: 18px; }
+  .speaker-additional-section > h3 { font-size: 25px; }
+  .organiser-portrait { width: 150px; height: 150px; }
+}

@@ -13,7 +13,7 @@ export const event = {
   phone: '+91-1881-232506',
   // Registration responses are collected in the Google Form supplied by the organisers.
   registrationUrl: 'https://forms.gle/ymvCvh3U4PeGdzfbA',
-  flyerUrl: '/downloads/MDWH-2026-flyer.pptx',
+  flyerUrl: '/downloads/SPARC-2026-flyer-23-10-2026.pdf',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Indian+Institute+of+Technology+Ropar+Rupnagar',
 };
 
@@ -97,14 +97,16 @@ export const speakers = [
   },
   {
     "id": "kartik-rangasamy",
-    "name": "Dr. Kartik Rangasamy",
+    "name": "Dr. Karthick Rangasamy",
     "institution": "PGIMER Chandigarh",
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": null,
+    "image": "/images/kartik-rangasamy.jpg",
     "link": "",
-    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
+    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
+    "additional": true,
+    "photoPosition": "center 25%"
   },
   {
     "id": "deepak-ranjan",
@@ -124,9 +126,11 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": null,
+    "image": "/images/garima.jpg",
     "link": "",
-    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
+    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
+    "additional": true,
+    "photoPosition": "center 25%"
   },
   {
     "id": "raveena-singh",
@@ -135,9 +139,11 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": null,
+    "image": "/images/raveena-singh.jpg",
     "link": "",
-    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
+    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
+    "additional": true,
+    "photoPosition": "center 25%"
   },
   {
     "id": "kaushik-parida",
@@ -212,9 +218,11 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": null,
+    "image": "/images/mahesh-kumar-sah.jpg",
     "link": "",
-    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
+    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
+    "additional": true,
+    "photoPosition": "center 25%"
   },
   {
     "id": "deepa-ghosh",
@@ -256,9 +264,11 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": null,
+    "image": "/images/preeti-agarwal.jpg",
     "link": "",
-    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
+    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
+    "additional": true,
+    "photoPosition": "center 25%"
   },
   {
     "id": "bodhisatwa-das",
@@ -307,12 +317,42 @@ export const speakers = [
 ];
 
 export const organisers = [
-  { id: 'suryasnata-tripathy', name: 'Dr. Suryasnata Tripathy' },
-  { id: 'srivatsawa-naidu', name: 'Dr. Srivatsawa Naidu' },
-  { id: 'bodhisatwa-das', name: 'Dr. Bodhisatwa Das' },
-  { id: 'rajesh-kumar', name: 'Dr. Rajesh Kumar' },
-  { id: 'naveen-kumar', name: 'Dr. Naveen Kumar' },
-  { id: 'yashveer-singh', name: 'Dr. Yashveer Singh' },
+  {
+    "id": "suryasnata-tripathy",
+    "name": "Dr. Suryasnata Tripathy",
+    "institution": "IIT Ropar",
+    "image": "/images/organiser-suryasnata-tripathy.jpg"
+  },
+  {
+    "id": "srivatsawa-naidu",
+    "name": "Dr. Srivastava Naidu",
+    "institution": "IIT Ropar",
+    "image": "/images/organiser-srivatsawa-naidu.jpg"
+  },
+  {
+    "id": "bodhisatwa-das",
+    "name": "Dr. Bodhisatwa Das",
+    "institution": "IIT Ropar",
+    "image": "/images/organiser-bodhisatwa-das.jpg"
+  },
+  {
+    "id": "rajesh-kumar",
+    "name": "Dr. Rajesh Kumar",
+    "institution": "IIT Ropar",
+    "image": "/images/organiser-rajesh-kumar.jpg"
+  },
+  {
+    "id": "naveen-kumar",
+    "name": "Dr. Naveen Kumar",
+    "institution": "IIT Ropar",
+    "image": "/images/organiser-naveen-kumar.jpg"
+  },
+  {
+    "id": "yashveer-singh",
+    "name": "Dr. Yashveer Singh",
+    "institution": "IIT Ropar",
+    "image": "/images/organiser-yashveer-singh.jpg"
+  }
 ];
 
 export const activities = [
