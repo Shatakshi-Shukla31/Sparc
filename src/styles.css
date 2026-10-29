@@ -284,14 +284,17 @@ html { scroll-padding-top: 105px; }
   .organiser-list > .organiser-card:last-child:nth-child(2n + 1) { grid-column: 1 / -1; width: calc(50% - 8px); justify-self: center; }
 }
 
-/* Emphasise the invitation to present student research. */
-.research-highlight { color: #102b2b; background: #f5d98c; padding: .07em .23em .12em; border-radius: 6px; font-weight: 800; line-height: 1.6; box-decoration-break: clone; -webkit-box-decoration-break: clone; animation: research-highlight-blink 2s ease-in-out infinite; }
+/* A warm gold accent for the student research invitation. */
+.student-callout { background: radial-gradient(ellipse at 28% 0%, #fbf7e9 0%, transparent 68%), #e9efdf; }
+.student-award-icon { color: #8c692d; background: #fffaf0; border-color: #d9c99f; box-shadow: 0 5px 18px #8f753510; }
+.research-highlight { display: inline-block; position: relative; isolation: isolate; max-width: 100%; color: #173d34; background: transparent; padding: 0 .02em .08em; border-radius: 0; font-weight: 800; line-height: 1.4; letter-spacing: -.035em; }
+.research-highlight::before { content: ''; position: absolute; z-index: -1; left: -.025em; right: -.025em; bottom: .11em; height: .27em; border-radius: .11em; transform: rotate(-.8deg); background-image: linear-gradient(105deg, transparent 25%, #fff9 49%, transparent 72%), linear-gradient(90deg, #dca943, #f3d58a 48%, #ddb04f); background-size: 260% 100%, 100% 100%; background-repeat: no-repeat; background-position: 160% 0, 0 0; box-shadow: 0 3px 11px #d6a34020; animation: research-accent-flow 3.8s ease-in-out infinite; }
 .student-callout-copy h2 { line-height: 1.45; }
-
-@keyframes research-highlight-blink {
-  0%, 35%, 100% { background-color: #f5d98c; }
-  60%, 80% { background-color: transparent; }
+@keyframes research-accent-flow {
+  0%, 18% { background-position: 160% 0, 0 0; box-shadow: 0 3px 10px #d6a34020; }
+  58% { background-position: -130% 0, 0 0; box-shadow: 0 3px 15px #d6a34048; }
+  100% { background-position: -130% 0, 0 0; box-shadow: 0 3px 10px #d6a34020; }
 }
 @media(prefers-reduced-motion: reduce) {
-  .research-highlight { animation: none; background-color: #f5d98c; }
+  .research-highlight::before { animation: none; background-position: -130% 0, 0 0; }
 }
