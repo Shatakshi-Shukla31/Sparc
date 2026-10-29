@@ -43,7 +43,7 @@ The tracked `vercel.json` already declares the framework, install command, build
 ## Website features
 
 - Responsive layouts with an enlarged SPARC logo, readable typography, and circular speaker portraits.
-- A single directory of 26 invited speakers, all with portraits.
+- A single directory of 27 invited speakers, all with portraits.
 - Speaker category filters, name/institution search, and profile dialogs.
 - Programme and theme tabs, FAQ accordion, and mobile navigation.
 - Calendar download, Google Form registration, organiser contact links, directions, and downloadable flyer.
@@ -88,7 +88,7 @@ Vite uses the official Rollup WebAssembly package through an npm alias and overr
 
 ## October 2026 photos, flyer and student presentations
 
-All five additional speakers now have the supplied portraits. All seven organisers have portrait cards, matched to the labelled organising team image. All 26 speakers appear in one grid, followed by the chief patron, workshop convenors, and organising team.
+All five additional speakers now have the supplied portraits. All seven organisers have portrait cards, matched to the labelled organising team image. All 27 speakers appear in one grid, followed by the chief patron, workshop convenors, and organising team.
 
 The current flyer download is `public/downloads/SPARC-2026-final-flyer.pdf`, copied unchanged from the supplied flyer. New portrait sources are `new speaker photo.pdf` and the supplied organising team image. Speaker and organiser names follow the supplied labels.
 
@@ -103,3 +103,5 @@ Desktop speaker cards use four columns, with two columns on tablets and one on p
 The downloadable flyer is the supplied Final Flyer.pdf, copied unchanged to `public/downloads/SPARC-2026-final-flyer.pdf`. The visible download labels remain Download flyer.
 
 Dr. Atharva Poundarik (IIT Ropar) is the seventh organiser, using the supplied portrait. STERMI and IWCA appear together as academic-industry conclave collaborators, using the supplied JPEG logos without changes to the artwork. The registration form and organiser contact details are unchanged.
+
+Prof. D. S. Katti is the third invited speaker, with the supplied photo and the roles President, STERMI, and Director, IIT Goa. The speaker total is rendered from the data. Present your research is highlighted in gold in the student abstract invitation.

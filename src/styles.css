@@ -283,3 +283,7 @@ html { scroll-padding-top: 105px; }
 @media(min-width: 561px) and (max-width: 1050px) {
   .organiser-list > .organiser-card:last-child:nth-child(2n + 1) { grid-column: 1 / -1; width: calc(50% - 8px); justify-self: center; }
 }
+
+/* Emphasise the invitation to present student research. */
+.research-highlight { color: #102b2b; background: #f5d98c; padding: .07em .23em .12em; border-radius: 6px; font-weight: 800; line-height: 1.6; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.student-callout-copy h2 { line-height: 1.45; }

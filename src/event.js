@@ -41,6 +41,18 @@ export const speakers = [
     "detail": "Director, IISER Tirupati"
   },
   {
+    "id": "d-s-katti",
+    "name": "Prof. D. S. Katti",
+    "institution": "Indian Institute of Technology Goa",
+    "role": "President, STERMI; Director, IIT Goa",
+    "category": "Academic & research",
+    "tag": "Academic & research",
+    "image": "/images/d-s-katti.jpeg",
+    "photoPosition": "center 25%",
+    "link": "",
+    "detail": "President, STERMI, and Director, Indian Institute of Technology Goa."
+  },
+  {
     "id": "ashvind-bawa",
     "name": "Dr. Ashvind Bawa",
     "institution": "DMCH Ludhiana",
