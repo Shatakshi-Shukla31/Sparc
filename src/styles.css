@@ -285,5 +285,13 @@ html { scroll-padding-top: 105px; }
 }
 
 /* Emphasise the invitation to present student research. */
-.research-highlight { color: #102b2b; background: #f5d98c; padding: .07em .23em .12em; border-radius: 6px; font-weight: 800; line-height: 1.6; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.research-highlight { color: #102b2b; background: #f5d98c; padding: .07em .23em .12em; border-radius: 6px; font-weight: 800; line-height: 1.6; box-decoration-break: clone; -webkit-box-decoration-break: clone; animation: research-highlight-blink 2s ease-in-out infinite; }
 .student-callout-copy h2 { line-height: 1.45; }
+
+@keyframes research-highlight-blink {
+  0%, 35%, 100% { background-color: #f5d98c; }
+  60%, 80% { background-color: transparent; }
+}
+@media(prefers-reduced-motion: reduce) {
+  .research-highlight { animation: none; background-color: #f5d98c; }
+}
