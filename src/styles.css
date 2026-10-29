@@ -253,3 +253,33 @@ html { scroll-padding-top: 105px; }
 @media(prefers-reduced-motion: reduce) {
   .speaker-card:hover, .speaker-card:focus-visible, .organiser-card:hover, .convenor:hover, .button:hover, .speaker-filters > button:hover, .programme-card:hover .programme-icon, .technology-gallery figure:hover img, .button:hover > svg, .inline-link:hover > svg, .hero-secondary:hover > svg, .speaker-card:hover .speaker-open, .speaker-card:focus-visible .speaker-open { transform: none; }
 }
+
+/* Academic–industry conclave collaborators, using the supplied logo artwork. */
+.conclave-partners { display: grid; grid-template-columns: minmax(190px, .65fr) minmax(0, 1.8fr); gap: 35px; padding-block: 36px 42px; border-top: 1px solid var(--line); align-items: center; }
+.conclave-partners-intro .eyebrow { font-size: 12px; letter-spacing: 1.2px; margin-bottom: 14px; }
+.conclave-partners-intro h3 { font-size: 28px; line-height: 1.3; letter-spacing: -.6px; max-width: 220px; }
+.conclave-partner-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.conclave-partner-card { min-width: 0; text-align: center; background: #fffefa; border: 1px solid #dbe3d6; border-radius: 14px; padding: 14px 14px 22px; }
+.conclave-logo-surface { height: 220px; display: grid; place-items: center; padding: 14px; border-radius: 9px; overflow: hidden; }
+.stermi-logo-surface { background: #fff; }
+.stermi-logo-surface img { width: 160px; height: auto; max-height: 180px; object-fit: contain; }
+.iwca-logo-surface { background: #000; }
+.iwca-logo-surface img { width: 100%; height: 100%; max-height: 192px; object-fit: contain; }
+.conclave-partner-card h4 { font-family: var(--heading); font-size: 20px; line-height: 1.4; margin: 19px 0 8px; color: var(--ink); }
+.conclave-partner-card p { font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 30ch; margin-inline: auto; }
+@media(max-width: 1050px) {
+  .conclave-partners { grid-template-columns: 1fr; gap: 23px; padding-block: 30px 36px; }
+  .conclave-partners-intro h3 { max-width: none; }
+}
+@media(max-width: 600px) {
+  .conclave-partner-grid { grid-template-columns: 1fr; gap: 18px; }
+  .conclave-partners-intro h3 { font-size: 26px; }
+  .conclave-logo-surface { height: 218px; }
+  .conclave-partner-card p { font-size: 15px; }
+}
+@media(min-width: 1051px) {
+  .organiser-list > .organiser-card:last-child:nth-child(3n + 1) { grid-column: 2; }
+}
+@media(min-width: 561px) and (max-width: 1050px) {
+  .organiser-list > .organiser-card:last-child:nth-child(2n + 1) { grid-column: 1 / -1; width: calc(50% - 8px); justify-self: center; }
+}

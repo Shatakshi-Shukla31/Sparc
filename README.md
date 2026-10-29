@@ -47,7 +47,7 @@ The tracked `vercel.json` already declares the framework, install command, build
 - Speaker category filters, name/institution search, and profile dialogs.
 - Programme and theme tabs, FAQ accordion, and mobile navigation.
 - Calendar download, Google Form registration, organiser contact links, directions, and downloadable flyer.
-- Six organisers, a chief patron card for Professor Rajeev Ahuja, and enlarged workshop convenor cards.
+- Seven organisers, a chief patron card for Professor Rajeev Ahuja, and enlarged workshop convenor cards.
 
 Registration buttons open the [Google Form supplied by the organisers](https://forms.gle/ymvCvh3U4PeGdzfbA). Responses are collected through Google Forms; this website does not store them. Google currently asks visitors to sign in before opening the form. Update `event.registrationUrl` in `src/event.js` if the form changes.
 
@@ -70,7 +70,7 @@ The chief patron photograph was supplied by the user. Event content and other su
 - `INTERNATIONAL WORKSHOP (A2 (Landscape)) (1).pptx`
 - `present speaker.pptx`
 
-The current flyer is `public/downloads/SPARC-2026-flyer-23-10-2026.pdf`; both website download links use this PDF. Device and wound-care imagery appears throughout the page. Detailed session timings, fees, and accommodation arrangements await organiser confirmation.
+The current flyer is `public/downloads/SPARC-2026-final-flyer.pdf`; both website download links use this PDF. Device and wound-care imagery appears throughout the page. Detailed session timings, fees, and accommodation arrangements await organiser confirmation.
 
 Additional portrait sources:
 
@@ -88,12 +88,18 @@ Vite uses the official Rollup WebAssembly package through an npm alias and overr
 
 ## October 2026 photos, flyer and student presentations
 
-All five additional speakers now have the supplied portraits. All six organisers have portrait cards, matched to the labelled organising team image. All 26 speakers appear in one grid, followed by the chief patron, workshop convenors, and organising team.
+All five additional speakers now have the supplied portraits. All seven organisers have portrait cards, matched to the labelled organising team image. All 26 speakers appear in one grid, followed by the chief patron, workshop convenors, and organising team.
 
-The current flyer download is `public/downloads/SPARC-2026-flyer-23-10-2026.pdf`, copied unchanged from the supplied flyer. New portrait sources are `new speaker photo.pdf` and the supplied organising team image. Speaker and organiser names follow the supplied labels.
+The current flyer download is `public/downloads/SPARC-2026-final-flyer.pdf`, copied unchanged from the supplied flyer. New portrait sources are `new speaker photo.pdf` and the supplied organising team image. Speaker and organiser names follow the supplied labels.
 
-A student abstract invitation announces awards for the top 10 student oral research presentations. Workshop registration opens the existing Google Form. The abstract submission button opens an email to `sparciitropar@gmail.com` with a relevant subject; no email is sent automatically. No award amounts, deadlines or acceptance guarantees are stated.
+The student abstract invitation follows the final flyer: the top 10 abstracts are shortlisted for jury presentations and a chance to compete for awards. Workshop registration opens the existing Google Form. The abstract submission button opens an email to `sparciitropar@gmail.com` with a relevant subject; no email is sent automatically. No award amounts, deadlines or acceptance guarantees are stated.
 
 The speaker directory uses one grid without an additional-speakers heading. Flyer links are labelled Download flyer. Organiser portraits use larger circular frames, soft green image panels, and consistent name and institution panels.
 
 Desktop speaker cards use four columns, with two columns on tablets and one on phones. Fine-pointer hover effects add subtle card lift, portrait accents, button shadows, and arrow movement. Reduced-motion preferences disable movement.
+
+## Final flyer and collaborators
+
+The downloadable flyer is the supplied Final Flyer.pdf, copied unchanged to `public/downloads/SPARC-2026-final-flyer.pdf`. The visible download labels remain Download flyer.
+
+Dr. Atharva Poundarik (IIT Ropar) is the seventh organiser, using the supplied portrait. STERMI and IWCA appear together as academic-industry conclave collaborators, using the supplied JPEG logos without changes to the artwork. The registration form and organiser contact details are unchanged.

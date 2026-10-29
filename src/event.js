@@ -13,7 +13,7 @@ export const event = {
   phone: '+91-1881-232506',
   // Registration responses are collected in the Google Form supplied by the organisers.
   registrationUrl: 'https://forms.gle/ymvCvh3U4PeGdzfbA',
-  flyerUrl: '/downloads/SPARC-2026-flyer-23-10-2026.pdf',
+  flyerUrl: '/downloads/SPARC-2026-final-flyer.pdf',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Indian+Institute+of+Technology+Ropar+Rupnagar',
 };
 
@@ -347,6 +347,12 @@ export const organisers = [
     "name": "Dr. Yashveer Singh",
     "institution": "IIT Ropar",
     "image": "/images/organiser-yashveer-singh.jpg"
+  },
+  {
+    "id": "atharva-poundarik",
+    "name": "Dr. Atharva Poundarik",
+    "institution": "IIT Ropar",
+    "image": "/images/organiser-atharva-poundarik.jpeg"
   }
 ];
 
