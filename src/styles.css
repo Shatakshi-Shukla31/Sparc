@@ -288,12 +288,12 @@ html { scroll-padding-top: 105px; }
   .organiser-list > .organiser-card:last-child:nth-child(2n + 1) { grid-column: 1 / -1; width: calc(50% - 8px); justify-self: center; }
 }
 
-/* Text-only blink for the research invitation. */
-.research-highlight { color: var(--green); background: transparent; padding: 0; border-radius: 0; box-shadow: none; font-weight: 800; line-height: 1.6; opacity: 1; animation: research-text-blink 1.6s step-end infinite; }
+/* Smooth, readable pulse for the research invitation. */
+.research-highlight { color: var(--green); background: transparent; padding: 0; border-radius: 0; box-shadow: none; font-weight: 800; line-height: 1.6; opacity: 1; animation: research-text-pulse 3s ease-in-out infinite; }
 .student-callout-copy h2 { line-height: 1.45; }
-@keyframes research-text-blink {
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
+@keyframes research-text-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .75; }
 }
 @media(prefers-reduced-motion: reduce) {
   .research-highlight { animation: none; opacity: 1; }
