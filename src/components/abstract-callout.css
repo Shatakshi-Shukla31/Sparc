@@ -42,7 +42,7 @@
 .abstract-email > svg { flex-shrink: 0; margin-top: 3px; }
 .abstract-email a { color: #3f614b; text-decoration: underline; text-underline-offset: 3px; }
 .abstract-recognition { position: relative; isolation: isolate; overflow: hidden; padding: 30px 32px 28px; border: 1px solid #416a53; border-radius: 16px; color: #f6f8ed; background: linear-gradient(145deg, #285741, #153b30 80%); box-shadow: 0 18px 50px #294c3312, inset 0 1px 0 #e6f3df12; }
-.abstract-orbits { position: absolute; z-index: -1; top: -90px; right: -100px; width: 320px; height: 320px; stroke: #bcdaba; stroke-width: .8; opacity: .2; animation: abstract-orbit-turn 70s linear infinite; pointer-events: none; }
+.abstract-orbits { position: absolute; z-index: -1; inset: 0; margin: auto; width: 320px; max-width: 100%; height: auto; aspect-ratio: 1; stroke: #bcdaba; stroke-width: .8; opacity: .2; animation: abstract-orbit-turn 70s linear infinite; pointer-events: none; }
 .abstract-orbit-node { fill: #c1dfb8; stroke: none; }
 .abstract-recognition-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 17px; color: #c2d9bd; }
 .abstract-recognition-label { font-size: 10px; font-weight: 600; line-height: 1.6; letter-spacing: 1.8px; text-transform: uppercase; }
