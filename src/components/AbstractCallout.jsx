@@ -37,7 +37,7 @@ export default function AbstractCallout({ email, registrationUrl }) {
           <div className="abstract-copy">
             <p className="abstract-context">Medical Devices in Wound Healing</p>
             <h2 className="abstract-headline" id="abstract-heading">
-              <span className="research-highlight">Present Your <span className="abstract-research-word">Research.</span></span>
+              <span className="research-highlight">Present Your <span className="abstract-research-word">Research</span></span>
             </h2>
             <p className="abstract-tagline">Let your ideas stand out.</p>
             <p className="abstract-description">Share your work in medical devices and wound healing. Exchange ideas across disciplines and compete for presentation awards at SPARC 2026.</p>
