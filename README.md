@@ -104,6 +104,6 @@ The downloadable flyer is the supplied Final Flyer.pdf, copied unchanged to `pub
 
 Dr. Atharva Poundarik (IIT Ropar) is the seventh organiser, using the supplied portrait. STERMI and IWCA appear together as academic-industry conclave collaborators, using the supplied JPEG logos without changes to the artwork. The registration form and organiser contact details are unchanged.
 
-Prof. D. S. Katti is the third invited speaker, with the supplied photo and the roles President, STERMI, and Director, IIT Goa. The speaker total is rendered from the data. Present your research uses a smooth green text-only pulse in the abstract invitation: a 2.4-second ease-in-out fade between full and 70% opacity that repeats automatically. A static heading is shown for reduced-motion preferences.
+Prof. D. S. Katti is the third invited speaker, with the supplied photo and the roles President, STERMI, and Director, IIT Goa. The speaker total is rendered from the data. The abstract invitation is a reusable AbstractCallout component with a cream/green gradient, a prominent Present Your Research heading, subtle green text glow, and a 2.8-second ease-in-out pulse. A separate dark-green panel lists the top-10 shortlisting and STERMI/SPARC awards. Ambient gradients and research orbits animate using transforms; reduced-motion preferences stop all section animations. Existing email submission and Google Form registration links are preserved.
 
 STERMI is expanded as Society for Tissue Engineering and Regenerative Medicine in the collaborator caption and logo alternative text.
