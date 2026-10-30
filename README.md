@@ -86,13 +86,13 @@ Typography uses Google Fonts; icons use Lucide. Event logos and photographs rema
 
 Vite uses the official Rollup WebAssembly package through an npm alias and override for compatibility with Windows systems that restrict native Node modules.
 
-## October 2026 photos, flyer and student presentations
+## October 2026 photos, flyer and research presentations
 
 All five additional speakers now have the supplied portraits. All seven organisers have portrait cards, matched to the labelled organising team image. All 27 speakers appear in one grid, followed by the chief patron, workshop convenors, and organising team.
 
 The current flyer download is `public/downloads/SPARC-2026-final-flyer.pdf`, copied unchanged from the supplied flyer. New portrait sources are `new speaker photo.pdf` and the supplied organising team image. Speaker and organiser names follow the supplied labels.
 
-The student abstract invitation follows the final flyer: the top 10 abstracts are shortlisted for jury presentations and a chance to compete for awards. Workshop registration opens the existing Google Form. The abstract submission button opens an email to `sparciitropar@gmail.com` with a relevant subject; no email is sent automatically. No award amounts, deadlines or acceptance guarantees are stated.
+Abstract submissions are open to everyone, including students, clinicians, residents, scientists, researchers, and industry professionals. The top 10 abstracts are shortlisted for jury presentations and a chance to compete for awards. STERMI will present an Oral Presentation Award and a Best Poster Award; SPARC will present an additional Oral Presentation Award. Workshop registration opens the existing Google Form. The abstract submission button opens an email to `sparciitropar@gmail.com` with a relevant subject; no email is sent automatically. No award amounts, deadlines or acceptance guarantees are stated.
 
 The speaker directory uses one grid without an additional-speakers heading. Flyer links are labelled Download flyer. Organiser portraits use larger circular frames, soft green image panels, and consistent name and institution panels.
 
@@ -104,4 +104,6 @@ The downloadable flyer is the supplied Final Flyer.pdf, copied unchanged to `pub
 
 Dr. Atharva Poundarik (IIT Ropar) is the seventh organiser, using the supplied portrait. STERMI and IWCA appear together as academic-industry conclave collaborators, using the supplied JPEG logos without changes to the artwork. The registration form and organiser contact details are unchanged.
 
-Prof. D. S. Katti is the third invited speaker, with the supplied photo and the roles President, STERMI, and Director, IIT Goa. The speaker total is rendered from the data. Present your research is highlighted in gold in the student abstract invitation.
+Prof. D. S. Katti is the third invited speaker, with the supplied photo and the roles President, STERMI, and Director, IIT Goa. The speaker total is rendered from the data. Present your research uses a green text-only blink in the abstract invitation, with a static heading for reduced-motion preferences.
+
+STERMI is expanded as Society for Tissue Engineering and Regenerative Medicine in the collaborator caption and logo alternative text.
