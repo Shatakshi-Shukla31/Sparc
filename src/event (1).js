@@ -308,6 +308,17 @@ export const speakers = [
     "image": "/images/naveen-sharma.jpeg",
     "link": "",
     "detail": "Bio-Medical Instrumentation Division"
+  },
+  {
+    "id": "manoj-kumar",
+    "name": "Dr. Manoj Kumar",
+    "institution": "JNU, Delhi",
+    "role": "",
+    "category": "Academic & research",
+    "tag": "Academic & research",
+    "image": "/images/manoj-kumar.jpg",
+    "link": "",
+    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   }
 ];
 
