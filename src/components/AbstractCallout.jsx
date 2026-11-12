@@ -3,7 +3,8 @@ import { ArrowUpRight, Award, CalendarClock, Mail, Users } from 'lucide-react';
 import './abstract-callout.css';
 
 const presentationAwards = [
-  { organiser: 'SPARC', awards: ['Oral Presentation Award', 'Best Poster Award'] },
+  { organiser: 'SPARC', awards: ['Best Oral Presentation Award', 'Best Poster Presentation Award'] },
+  { organiser: 'IWCA', awards: ['Best Oral Presentation Award'] },
 ];
 
 function ResearchOrbits() {
@@ -41,7 +42,7 @@ export default function AbstractCallout({ email, registrationUrl }) {
 
             <p className="abstract-deadline">
               <CalendarClock size={18} strokeWidth={1.7} aria-hidden="true" />
-              <span>Abstract submission closes <strong>20 November 2026</strong></span>
+              <span>Abstract submission and registration close <strong>20 November 2026</strong></span>
             </p>
 
             <div className="abstract-actions">
