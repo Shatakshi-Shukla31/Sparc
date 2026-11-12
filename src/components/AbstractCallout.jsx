@@ -1,10 +1,9 @@
 import React from 'react';
-import { ArrowUpRight, Award, Mail, Users } from 'lucide-react';
+import { ArrowUpRight, Award, CalendarClock, Mail, Users } from 'lucide-react';
 import './abstract-callout.css';
 
 const presentationAwards = [
-  { organiser: 'STERMI', awards: ['Oral Presentation Award', 'Best Poster Award'] },
-  { organiser: 'SPARC', awards: ['Additional Oral Presentation Award'] },
+  { organiser: 'SPARC', awards: ['Oral Presentation Award', 'Best Poster Award'] },
 ];
 
 function ResearchOrbits() {
@@ -21,8 +20,6 @@ function ResearchOrbits() {
 }
 
 export default function AbstractCallout({ email, registrationUrl }) {
-  const abstractEmail = `mailto:${email}?subject=${encodeURIComponent('SPARC 2026 - Research abstract submission')}`;
-
   return (
     <section className="abstract-callout" id="abstracts" aria-labelledby="abstract-heading">
       <div className="abstract-ambient abstract-ambient-one" aria-hidden="true" />
@@ -42,11 +39,16 @@ export default function AbstractCallout({ email, registrationUrl }) {
             <p className="abstract-tagline">Let your ideas stand out.</p>
             <p className="abstract-description">Share your work in medical devices and wound healing. Exchange ideas across disciplines and compete for presentation awards at SPARC 2026.</p>
 
+            <p className="abstract-deadline">
+              <CalendarClock size={18} strokeWidth={1.7} aria-hidden="true" />
+              <span>Abstract submission closes <strong>20 November 2026</strong></span>
+            </p>
+
             <div className="abstract-actions">
-              <a className="abstract-submit" href={abstractEmail}>Submit Your Abstract<ArrowUpRight size={21} aria-hidden="true" /></a>
-              <a className="abstract-register" href={registrationUrl} target="_blank" rel="noopener noreferrer">Register for the workshop<ArrowUpRight size={17} aria-hidden="true" /></a>
+              <a className="abstract-submit" href={registrationUrl} target="_blank" rel="noopener noreferrer">Submit Abstract &amp; Register<ArrowUpRight size={21} aria-hidden="true" /></a>
             </div>
-            <p className="abstract-email"><Mail size={16} aria-hidden="true" /><span>Abstract submissions: <a href={`mailto:${email}`}>{email}</a></span></p>
+            <p className="abstract-note">Abstract submission and registration are completed together in a single form.</p>
+            <p className="abstract-email"><Mail size={16} aria-hidden="true" /><span>Questions: <a href={`mailto:${email}`}>{email}</a></span></p>
           </div>
 
           <aside className="abstract-recognition" aria-labelledby="abstract-awards-heading">

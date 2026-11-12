@@ -117,3 +117,9 @@
   .abstract-callout *, .abstract-callout *::before, .abstract-callout *::after { animation: none !important; transition: none !important; }
   .abstract-callout .research-highlight { opacity: 1; }
 }
+
+.abstract-deadline{display:inline-flex;align-items:center;gap:10px;margin:26px 0 4px;padding:11px 18px;border:1px solid rgba(47,78,55,.30);border-radius:999px;background:rgba(47,78,55,.06);font-size:15px;letter-spacing:.1px}
+.abstract-deadline>svg{flex:0 0 auto;opacity:.85}
+.abstract-deadline strong{font-weight:650;white-space:nowrap}
+.abstract-note{font-size:14px;opacity:.7;margin-top:12px;line-height:1.6}
+@media(max-width:620px){.abstract-deadline{font-size:14px;padding:10px 15px}}
