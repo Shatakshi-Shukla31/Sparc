@@ -264,3 +264,7 @@ html { scroll-padding-top: 105px; }
 
 .conclave-partner-grid{justify-content:center}
 .conclave-partner-grid:has(>:only-child){grid-template-columns:minmax(0,420px)}
+
+.registration-deadline{display:flex;align-items:center;gap:9px;font-size:15px;margin:14px 0 22px;opacity:.9}
+.registration-deadline>svg{flex:0 0 auto;opacity:.8}
+.registration-deadline strong{font-weight:650;white-space:nowrap}
