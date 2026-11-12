@@ -261,3 +261,6 @@ html { scroll-padding-top: 105px; }
 @media(min-width: 561px) and (max-width: 1050px) {
   .organiser-list > .organiser-card:last-child:nth-child(2n + 1) { grid-column: 1 / -1; width: calc(50% - 8px); justify-self: center; }
 }
+
+.conclave-partner-grid{justify-content:center}
+.conclave-partner-grid:has(>:only-child){grid-template-columns:minmax(0,420px)}
