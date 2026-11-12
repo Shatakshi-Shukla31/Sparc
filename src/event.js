@@ -13,7 +13,7 @@ export const event = {
   phone: '+91-1881-232506',
   // Registration responses are collected in the Google Form supplied by the organisers.
   registrationUrl: 'https://forms.gle/ymvCvh3U4PeGdzfbA',
-  flyerUrl: '/downloads/SPARC-2026-final-flyer.pdf',
+  flyerUrl: '/downloads/SPARC-2026-flyer-12-11-2026.pdf',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Indian+Institute+of+Technology+Ropar+Rupnagar',
 };
 
@@ -39,18 +39,6 @@ export const speakers = [
     "image": "/images/santanu-bhattacharya.jpg",
     "link": "",
     "detail": "Director, IISER Tirupati"
-  },
-  {
-    "id": "d-s-katti",
-    "name": "Prof. D. S. Katti",
-    "institution": "Indian Institute of Technology Goa",
-    "role": "President, STERMI; Director, IIT Goa",
-    "category": "Academic & research",
-    "tag": "Academic & research",
-    "image": "/images/d-s-katti.jpeg",
-    "photoPosition": "center 25%",
-    "link": "",
-    "detail": "President, STERMI, and Director, Indian Institute of Technology Goa."
   },
   {
     "id": "ashvind-bawa",
@@ -290,7 +278,7 @@ export const speakers = [
   },
   {
     "id": "naveen-kumar",
-    "name": "Dr. Naveen Kumar",
+    "name": "Dr. Navin Kumar",
     "institution": "IIT Ropar",
     "role": "",
     "category": "Academic & research",
@@ -350,7 +338,7 @@ export const organisers = [
   },
   {
     "id": "naveen-kumar",
-    "name": "Dr. Naveen Kumar",
+    "name": "Dr. Navin Kumar",
     "institution": "IIT Ropar",
     "image": "/images/organiser-naveen-kumar.jpg"
   },
@@ -384,7 +372,7 @@ export const themes = [
 
 export const faqs = [
   ['Who is the workshop for?', 'Researchers, clinicians, biomedical engineers, students, and industry professionals with an interest in medical devices, wound healing, and regenerative medicine.'],
-  ['How do I register?', 'Use the Register button to complete the Google Form and send your details to the organising team. For questions about registration, availability, or fees, email sparciitropar@gmail.com.'],
+  ['How do I register?', 'Use the Register button to complete the Google Form, which covers registration and abstract submission together. Both close on 20 November 2026. For questions about registration, availability, or fees, email sparciitropar@gmail.com.'],
   ['Is the detailed programme available?', 'The flyer announces invited lectures, technical demonstrations, hands-on sessions, and an academic–industry conclave. Session timings and the detailed timetable are yet to be announced.'],
   ['Can I request accommodation or travel guidance?', 'Please contact the organising team for accommodation availability and travel guidance before making arrangements. No accommodation booking is included with an enquiry.'],
 ];
