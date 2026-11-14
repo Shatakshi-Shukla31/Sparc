@@ -279,3 +279,11 @@ html { scroll-padding-top: 105px; }
   .conclave-partner-grid:has(>:only-child) .conclave-partner-card{grid-template-columns:minmax(0,1fr);row-gap:12px}
   .conclave-partner-grid:has(>:only-child) .conclave-logo-surface{grid-row:auto;justify-self:start}
 }
+
+.footer-institutions{display:flex;align-items:center;flex-wrap:wrap;gap:10px 34px;padding:0 0 21px;font-size:14.5px}
+.footer-institutions-label{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#8a9a84}
+.footer-institutions a{display:inline-flex;align-items:center;gap:6px;color:#5d745b;border-bottom:1px solid transparent;transition:border-color .2s,color .2s}
+.footer-institutions a strong{font-weight:620;color:#2f4a2d}
+.footer-institutions a:hover{color:#2f4a2d;border-bottom-color:currentColor}
+.footer-institutions a svg{flex:0 0 auto;opacity:.55}
+@media(max-width:620px){.footer-institutions{flex-direction:column;align-items:flex-start;gap:9px;font-size:14px;padding-bottom:18px}}
