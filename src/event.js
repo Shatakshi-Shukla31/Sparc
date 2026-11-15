@@ -30,6 +30,17 @@ export const speakers = [
     "detail": "Director, McGowan Institute for Regenerative Medicine"
   },
   {
+    "id": "amit-dinda",
+    "name": "Prof. Amit Kumar Dinda",
+    "institution": "Amrita Vishwa Vidyapeetham, Faridabad",
+    "role": "Research Director, Amrita Research Center Delhi (ARCD)",
+    "category": "Academic & research",
+    "tag": "Academic & research",
+    "image": "/images/amit-dinda.jpg",
+    "link": "",
+    "detail": "Research Director, Amrita Research Center Delhi (ARCD), Amrita Vishwa Vidyapeetham, Faridabad."
+  },
+  {
     "id": "santanu-bhattacharya",
     "name": "Prof. Santanu Bhattacharya",
     "institution": "IISER Tirupati",
