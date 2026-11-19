@@ -41,15 +41,15 @@ export const speakers = [
     "detail": "Research Director, Amrita Research Center Delhi (ARCD), Amrita Vishwa Vidyapeetham, Faridabad."
   },
   {
-    "id": "santanu-bhattacharya",
-    "name": "Prof. Santanu Bhattacharya",
-    "institution": "IISER Tirupati",
-    "role": "Director, IISER Tirupati",
+    "id": "sujata-mohanty",
+    "name": "Prof. Sujata Mohanty",
+    "institution": "AIIMS, New Delhi",
+    "role": "Professor, Stem Cell Facility (DBT Centre of Excellence for Stem Cell Research)",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/santanu-bhattacharya.jpg",
+    "image": "/images/sujata-mohanty.jpg",
     "link": "",
-    "detail": "Director, IISER Tirupati"
+    "detail": "Professor, Stem Cell Facility (DBT Centre of Excellence for Stem Cell Research), AIIMS, New Delhi."
   },
   {
     "id": "ashvind-bawa",
@@ -394,7 +394,7 @@ export const themes = [
 
 export const faqs = [
   ['Who is the workshop for?', 'Researchers, clinicians, biomedical engineers, students, and industry professionals with an interest in medical devices, wound healing, and regenerative medicine.'],
-  ['How do I register?', 'Use the Register button to complete the Google Form, which covers registration and abstract submission together. Both close on 20 November 2026. For questions about registration, availability, or fees, email sparciitropar@gmail.com.'],
+  ['How do I register?', 'Use the Register button to complete the Google Form, which covers registration and abstract submission together. Both close on 30 November 2026. For questions about registration, availability, or fees, email sparciitropar@gmail.com.'],
   ['Is the detailed programme available?', 'The flyer announces invited lectures, technical demonstrations, hands-on sessions, and an academic–industry conclave. Session timings and the detailed timetable are yet to be announced.'],
   ['Can I request accommodation or travel guidance?', 'Please contact the organising team for accommodation availability and travel guidance before making arrangements. No accommodation booking is included with an enquiry.'],
 ];
