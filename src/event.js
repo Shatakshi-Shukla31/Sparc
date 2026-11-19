@@ -13,7 +13,7 @@ export const event = {
   phones: ['+91-1881-232506', '+91-95738-20933', '+91-89105-39943', '+91-98996-00738'],
   // Registration responses are collected in the Google Form supplied by the organisers.
   registrationUrl: 'https://forms.gle/ymvCvh3U4PeGdzfbA',
-  flyerUrl: '/downloads/SPARC-2026-flyer-12-11-2026.pdf',
+  flyerUrl: '/downloads/SPARC-2026-flyer-30-11-2026.pdf',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Indian+Institute+of+Technology+Ropar+Rupnagar',
 };
 
