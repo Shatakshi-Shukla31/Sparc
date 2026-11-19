@@ -200,13 +200,13 @@ export const speakers = [
   {
     "id": "uday-guled",
     "name": "Dr. Uday Guled",
-    "institution": "S. Nijalingappa Medical College",
-    "role": "",
+    "institution": "Guled Hospitals, Bagalkot",
+    "role": "Director",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
     "image": "/images/uday-guled.jpeg",
     "link": "",
-    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
+    "detail": "Director, Guled Hospitals, Bagalkot."
   },
   {
     "id": "bharat-kotru",
@@ -263,18 +263,6 @@ export const speakers = [
     "image": "/images/sanjeev-soni.jpg",
     "link": "https://icsio.csio.res.in/csio.ems/emp_profile.aspx?id=931",
     "detail": "Biomedical instrumentation"
-  },
-  {
-    "id": "preeti-agarwal",
-    "name": "Dr. Preeti Agarwal",
-    "institution": "UIET, Panjab University",
-    "role": "",
-    "category": "Academic & research",
-    "tag": "Academic & research",
-    "image": "/images/preeti-agarwal.jpg",
-    "link": "",
-    "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
-    "photoPosition": "center 25%"
   },
   {
     "id": "bodhisatwa-das",
