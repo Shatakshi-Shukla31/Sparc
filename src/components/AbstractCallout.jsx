@@ -42,7 +42,7 @@ export default function AbstractCallout({ email, registrationUrl }) {
 
             <p className="abstract-deadline">
               <CalendarClock size={18} strokeWidth={1.7} aria-hidden="true" />
-              <span>Abstract submission and registration close <strong>20 November 2026</strong></span>
+              <span>Abstract submission and registration close <strong>30 November 2026</strong></span>
             </p>
 
             <div className="abstract-actions">
