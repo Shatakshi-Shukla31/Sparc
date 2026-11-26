@@ -13,7 +13,7 @@ export const event = {
   phones: ['+91-1881-232506', '+91-95738-20933', '+91-89105-39943', '+91-98996-00738'],
   // Registration responses are collected in the Google Form supplied by the organisers.
   registrationUrl: 'https://forms.gle/ymvCvh3U4PeGdzfbA',
-  flyerUrl: '/downloads/SPARC-2026-flyer-30-11-2026.pdf',
+  flyerUrl: 'downloads/SPARC-2026-flyer-30-11-2026.pdf',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Indian+Institute+of+Technology+Ropar+Rupnagar',
 };
 
@@ -25,7 +25,7 @@ export const speakers = [
     "role": "Director, McGowan Institute for Regenerative Medicine",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/chandan-sen.jpeg",
+    "image": "images/chandan-sen.jpeg",
     "link": "https://chandansen.org/",
     "detail": "Director, McGowan Institute for Regenerative Medicine"
   },
@@ -36,7 +36,7 @@ export const speakers = [
     "role": "Research Director, Amrita Research Center Delhi (ARCD)",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/amit-dinda.jpg",
+    "image": "images/amit-dinda.jpg",
     "link": "",
     "detail": "Research Director, Amrita Research Center Delhi (ARCD), Amrita Vishwa Vidyapeetham, Faridabad."
   },
@@ -47,7 +47,7 @@ export const speakers = [
     "role": "Professor, Stem Cell Facility (DBT Centre of Excellence for Stem Cell Research)",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/sujata-mohanty.jpg",
+    "image": "images/sujata-mohanty.jpg",
     "link": "",
     "detail": "Professor, Stem Cell Facility (DBT Centre of Excellence for Stem Cell Research), AIIMS, New Delhi."
   },
@@ -58,7 +58,7 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/ashvind-bawa.jpg",
+    "image": "images/ashvind-bawa.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -69,7 +69,7 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/debarati-chattopadhyay.jpg",
+    "image": "images/debarati-chattopadhyay.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -80,7 +80,7 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/akshay-kapoor.jpeg",
+    "image": "images/akshay-kapoor.jpeg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -91,7 +91,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/amit-jaiswal.jpeg",
+    "image": "images/amit-jaiswal.jpeg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -102,7 +102,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/chirodeep-bakli.png",
+    "image": "images/chirodeep-bakli.png",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -113,7 +113,7 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/kartik-rangasamy.jpg",
+    "image": "images/kartik-rangasamy.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
     "photoPosition": "center 25%"
@@ -125,7 +125,7 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/deepak-ranjan.png",
+    "image": "images/deepak-ranjan.png",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -136,7 +136,7 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/garima.jpg",
+    "image": "images/garima.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
     "photoPosition": "center 25%"
@@ -148,7 +148,7 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/raveena-singh.jpg",
+    "image": "images/raveena-singh.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
     "photoPosition": "center 25%"
@@ -160,7 +160,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/kaushik-parida.jpeg",
+    "image": "images/kaushik-parida.jpeg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -171,7 +171,7 @@ export const speakers = [
     "role": "Founder Director & CEO",
     "category": "Industry",
     "tag": "Industry",
-    "image": "/images/pradeep-mahajan.jpeg",
+    "image": "images/pradeep-mahajan.jpeg",
     "link": "",
     "detail": "Founder Director & CEO"
   },
@@ -182,7 +182,7 @@ export const speakers = [
     "role": "CEO",
     "category": "Industry",
     "tag": "Industry",
-    "image": "/images/pratik-baldota.png",
+    "image": "images/pratik-baldota.png",
     "link": "https://improvians.com/about-us.html",
     "detail": "CEO"
   },
@@ -193,7 +193,7 @@ export const speakers = [
     "role": "Founder Director & CEO",
     "category": "Industry",
     "tag": "Industry",
-    "image": "/images/varun-gupta.jpeg",
+    "image": "images/varun-gupta.jpeg",
     "link": "",
     "detail": "Founder Director & CEO"
   },
@@ -204,7 +204,7 @@ export const speakers = [
     "role": "Director",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/uday-guled.jpeg",
+    "image": "images/uday-guled.jpeg",
     "link": "",
     "detail": "Director, Guled Hospitals, Bagalkot."
   },
@@ -215,7 +215,7 @@ export const speakers = [
     "role": "",
     "category": "Clinical & healthcare",
     "tag": "Clinical & healthcare",
-    "image": "/images/bharat-kotru.jpeg",
+    "image": "images/bharat-kotru.jpeg",
     "link": "https://drbharatkotru.com/about-us/",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -226,7 +226,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/mahesh-kumar-sah.jpg",
+    "image": "images/mahesh-kumar-sah.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference.",
     "photoPosition": "center 25%"
@@ -238,7 +238,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/deepa-ghosh.jpeg",
+    "image": "images/deepa-ghosh.jpeg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -249,7 +249,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/bhuvanesh-gupta.png",
+    "image": "images/bhuvanesh-gupta.png",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -260,7 +260,7 @@ export const speakers = [
     "role": "Biomedical instrumentation",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/sanjeev-soni.jpg",
+    "image": "images/sanjeev-soni.jpg",
     "link": "https://icsio.csio.res.in/csio.ems/emp_profile.aspx?id=931",
     "detail": "Biomedical instrumentation"
   },
@@ -271,7 +271,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/bodhisatwa-das.jpeg",
+    "image": "images/bodhisatwa-das.jpeg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -282,7 +282,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/naveen-kumar.png",
+    "image": "images/naveen-kumar.png",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -293,7 +293,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/manishekhar.jpeg",
+    "image": "images/manishekhar.jpeg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
@@ -304,7 +304,7 @@ export const speakers = [
     "role": "Bio-Medical Instrumentation Division",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/naveen-sharma.jpeg",
+    "image": "images/naveen-sharma.jpeg",
     "link": "",
     "detail": "Bio-Medical Instrumentation Division"
   },
@@ -315,7 +315,7 @@ export const speakers = [
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "/images/manoj-kumar.jpg",
+    "image": "images/manoj-kumar.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   }
@@ -326,43 +326,43 @@ export const organisers = [
     "id": "suryasnata-tripathy",
     "name": "Dr. Suryasnata Tripathy",
     "institution": "IIT Ropar",
-    "image": "/images/organiser-suryasnata-tripathy.jpg"
+    "image": "images/organiser-suryasnata-tripathy.jpg"
   },
   {
     "id": "srivatsawa-naidu",
     "name": "Dr. Srivatsava Naidu",
     "institution": "IIT Ropar",
-    "image": "/images/organiser-srivatsawa-naidu.jpg"
+    "image": "images/organiser-srivatsawa-naidu.jpg"
   },
   {
     "id": "bodhisatwa-das",
     "name": "Dr. Bodhisatwa Das",
     "institution": "IIT Ropar",
-    "image": "/images/organiser-bodhisatwa-das.jpg"
+    "image": "images/organiser-bodhisatwa-das.jpg"
   },
   {
     "id": "rajesh-kumar",
     "name": "Dr. Rajesh Kumar",
     "institution": "IIT Ropar",
-    "image": "/images/organiser-rajesh-kumar.jpg"
+    "image": "images/organiser-rajesh-kumar.jpg"
   },
   {
     "id": "naveen-kumar",
     "name": "Dr. Navin Kumar",
     "institution": "IIT Ropar",
-    "image": "/images/organiser-naveen-kumar.jpg"
+    "image": "images/organiser-naveen-kumar.jpg"
   },
   {
     "id": "yashveer-singh",
     "name": "Dr. Yashveer Singh",
     "institution": "IIT Ropar",
-    "image": "/images/organiser-yashveer-singh.jpg"
+    "image": "images/organiser-yashveer-singh.jpg"
   },
   {
     "id": "atharva-poundarik",
     "name": "Dr. Atharva Poundarik",
     "institution": "IIT Ropar",
-    "image": "/images/organiser-atharva-poundarik.jpeg"
+    "image": "images/organiser-atharva-poundarik.jpeg"
   }
 ];
 
