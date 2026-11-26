@@ -6,6 +6,11 @@
   "outputDirectory": "dist",
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://www.iitrpr.ac.in/sparc2026/",
+      "permanent": false
+    },
+    {
       "source": "/:path*",
       "destination": "https://www.iitrpr.ac.in/sparc2026/:path*",
       "permanent": false
