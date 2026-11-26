@@ -384,6 +384,8 @@ export const faqs = [
   ['Who is the workshop for?', 'Researchers, clinicians, biomedical engineers, students, and industry professionals with an interest in medical devices, wound healing, and regenerative medicine.'],
   ['How do I register?', 'Use the Register button to complete the Google Form, which covers registration and abstract submission together. Both close on 30 November 2026. For questions about registration, availability, or fees, email sparciitropar@gmail.com.'],
   ['Is the detailed programme available?', 'The flyer announces invited lectures, technical demonstrations, hands-on sessions, and an academic–industry conclave. Session timings and the detailed timetable are yet to be announced.'],
+  ['How will I know if I am selected for oral presentation?', 'Candidates shortlisted for oral presentation will be notified separately by email. All other accepted abstracts will be presented as posters.'],
+  ['What are the poster presentation guidelines?', 'Posters should be 3 ft wide and 4 ft high (approximately 914 x 1219 mm) in portrait orientation. There is no prescribed template, so you are free to design the layout. Keep the title, authors and affiliations across the top, and use text large enough to be read from about a metre away. Posters may be printed on paper or flex. Mounting will be arranged at the venue.'],
   ['Can I request accommodation or travel guidance?', 'Please contact the organising team for accommodation availability and travel guidance before making arrangements. No accommodation booking is included with an enquiry.'],
 ];
 
