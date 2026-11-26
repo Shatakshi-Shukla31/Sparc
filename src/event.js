@@ -232,13 +232,13 @@ export const speakers = [
     "photoPosition": "center 25%"
   },
   {
-    "id": "deepa-ghosh",
-    "name": "Prof. Deepa Ghosh",
-    "institution": "INST Mohali",
+    "id": "sanyog-jain",
+    "name": "Prof. Sanyog Jain",
+    "institution": "NIPER Mohali",
     "role": "",
     "category": "Academic & research",
     "tag": "Academic & research",
-    "image": "images/deepa-ghosh.jpeg",
+    "image": "images/sanyog-jain.jpg",
     "link": "",
     "detail": "Invited speaker at the Indo–US SPARC International Workshop & Conference."
   },
