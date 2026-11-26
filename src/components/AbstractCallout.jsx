@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Award, CalendarClock, Mail, Users } from 'lucide-react';
+import { ArrowUpRight, Award, CalendarClock, Mail, Ruler, Users } from 'lucide-react';
 import './abstract-callout.css';
 
 const presentationAwards = [
@@ -45,6 +45,11 @@ export default function AbstractCallout({ email, registrationUrl }) {
               <span>Abstract submission and registration close <strong>30 November 2026</strong></span>
             </p>
 
+            <p className="abstract-deadline">
+              <Ruler size={18} strokeWidth={1.7} aria-hidden="true" />
+              <span>Posters: <strong>3 ft wide &times; 4 ft high</strong> (portrait)</span>
+            </p>
+
             <div className="abstract-actions">
               <a className="abstract-submit" href={registrationUrl} target="_blank" rel="noopener noreferrer">Submit Abstract &amp; Register<ArrowUpRight size={21} aria-hidden="true" /></a>
             </div>
@@ -56,7 +61,7 @@ export default function AbstractCallout({ email, registrationUrl }) {
             <ResearchOrbits />
             <div className="abstract-recognition-top"><span className="abstract-recognition-label">Ideas with impact</span><Award size={26} strokeWidth={1.4} aria-hidden="true" /></div>
             <h3 id="abstract-awards-heading">Research.<br /><em>Recognised.</em></h3>
-            <div className="abstract-shortlist"><strong>10</strong><div><span>Top abstracts shortlisted</span><p>For jury presentations and a chance to compete for awards.</p></div></div>
+            <div className="abstract-shortlist"><strong>10</strong><div><span>Top abstracts shortlisted</span><p>For jury presentations and a chance to compete for awards. Shortlisted candidates will be notified by email.</p></div></div>
             <ul className="abstract-awards" aria-label="Presentation awards">
               {presentationAwards.map(({ organiser, awards }) => (
                 <li key={organiser}><span className="abstract-award-organiser">{organiser} awards</span><div>{awards.map(award => <span className="abstract-award-name" key={award}>{award}</span>)}</div></li>
