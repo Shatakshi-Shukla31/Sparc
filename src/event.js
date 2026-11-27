@@ -16,7 +16,7 @@ export const event = {
   registrationUrl: 'https://forms.gle/ymvCvh3U4PeGdzfbA',
   flyerUrl: 'downloads/SPARC-2026-flyer-30-11-2026.pdf',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Indian+Institute+of+Technology+Ropar+Rupnagar',
-  linkedinUrl: 'https://www.linkedin.com/school/iitropar/',
+  linkedinUrl: 'https://www.linkedin.com/in/sparc-iit-ropar-bbbaa3443/',
 };
 
 export const speakers = [
