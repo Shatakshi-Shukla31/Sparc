@@ -10,6 +10,7 @@ export const event = {
   venue: 'Indian Institute of Technology Ropar',
   address: 'Rupnagar, Punjab 140001, India',
   email: 'sparciitropar@gmail.com',
+  emailSecondary: 'sparciitropar@iitrpr.ac.in',
   phones: ['+91-1881-232506', '+91-95738-20933', '+91-89105-39943', '+91-98996-00738'],
   // Registration responses are collected in the Google Form supplied by the organisers.
   registrationUrl: 'https://forms.gle/ymvCvh3U4PeGdzfbA',
@@ -382,7 +383,7 @@ export const themes = [
 
 export const faqs = [
   ['Who is the workshop for?', 'Researchers, clinicians, biomedical engineers, students, and industry professionals with an interest in medical devices, wound healing, and regenerative medicine.'],
-  ['How do I register?', 'Use the Register button to complete the Google Form, which covers registration and abstract submission together. Both close on 30 November 2026. For questions about registration, availability, or fees, email sparciitropar@gmail.com.'],
+  ['How do I register?', 'Use the Register button to complete the Google Form, which covers registration and abstract submission together. Both close on 30 November 2026. For questions about registration, availability, or fees, email sparciitropar@gmail.com or sparciitropar@iitrpr.ac.in.'],
   ['Is the detailed programme available?', 'The flyer announces invited lectures, technical demonstrations, hands-on sessions, and an academic–industry conclave. Session timings and the detailed timetable are yet to be announced.'],
   ['How will I know if I am selected for oral presentation?', 'Candidates shortlisted for oral presentation will be notified separately by email. All other accepted abstracts will be presented as posters.'],
   ['What are the poster presentation guidelines?', 'Posters should be 3 ft wide and 4 ft high (approximately 914 x 1219 mm) in portrait orientation. There is no prescribed template, so you are free to design the layout. Keep the title, authors and affiliations across the top, and use text large enough to be read from about a metre away. Posters may be printed on paper or flex. Mounting will be arranged at the venue.'],
@@ -396,7 +397,7 @@ export function createCalendarFile() {
     'DTSTART;VALUE=DATE:20261220', 'DTEND;VALUE=DATE:20261222',
     'SUMMARY:SPARC 2026 - Indo-US International Workshop on Wound Healing',
     String.raw`LOCATION:IIT Ropar\, Rupnagar\, Punjab\, India`,
-    String.raw`DESCRIPTION:Organised by IIT Ropar and PGIMER Chandigarh under SPARC.\nRegistration enquiries: sparciitropar@gmail.com`,
+    String.raw`DESCRIPTION:Organised by IIT Ropar and PGIMER Chandigarh under SPARC.\nRegistration enquiries: sparciitropar@gmail.com / sparciitropar@iitrpr.ac.in`,
     'STATUS:CONFIRMED', 'END:VEVENT', 'END:VCALENDAR', '',
   ].map(line => line.match(/.{1,74}/g)?.join('\r\n ') ?? '').join('\r\n');
 }
